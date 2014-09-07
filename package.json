@@ -1,0 +1,19 @@
+{
+  "name": "glsl-curl-noise",
+  "version": "0.0.0",
+  "description": "curl noise",
+  "main": "curl.glsl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "curl",
+    "noise",
+    "glsl"
+  ],
+  "author": "Isaac Cohen <isaaclandoncohen@gmail.com>",
+  "license": "BSD",
+  "dependencies": {
+    "glsl-noise": "0.0.0"
+  }
+}
