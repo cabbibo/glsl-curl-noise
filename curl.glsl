@@ -1,4 +1,4 @@
-#pragma glslify: snoise = require[ glsl-noise/simplex/3d ]
+#pragma glslify: snoise = require( glsl-noise/simplex/3d )
 
 vec3 snoiseVec3( vec3 x ){
 
@@ -31,4 +31,7 @@ vec3 curlNoise( vec3 p ){
 
   const float divisor = 1.0 / ( 2.0 * e );
   return normalize( vec3( x , y , z ) * divisor );
+
 }
+
+#pragma glslify: export( curlNoise )
