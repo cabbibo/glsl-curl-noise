@@ -1,6 +1,6 @@
 {
   "name": "glsl-curl-noise",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "curl noise",
   "main": "curl.glsl",
   "scripts": {
