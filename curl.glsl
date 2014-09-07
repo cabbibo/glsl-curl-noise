@@ -1,4 +1,4 @@
-#pragma glslify: snoise = require( glsl-noise/simplex/3d )
+#pragma glslify: snoise = require(glsl-noise/simplex/3d)
 
 vec3 snoiseVec3( vec3 x ){
 
