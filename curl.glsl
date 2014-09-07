@@ -34,4 +34,4 @@ vec3 curlNoise( vec3 p ){
 
 }
 
-#pragma glslify: export( curlNoise )
+#pragma glslify: export(curlNoise)
